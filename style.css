@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+
+}
+
+body {
+    background-image: url("https://source.unsplash.com/random/1920x1080/?landscape");
+
+}
+
+.card {
+    width: 40%;
+    /* background-color: #000000d0; */
+    /* background: linear-gradient(300deg,  #cde3ee, #65c1f6); */
+    /* background: linear-gradient( 300deg, #e6d862, #ceba04); */
+    background: linear-gradient(156deg, rgb(21, 213, 235) 0.00%, rgb(255, 0, 191) 100.00%);
+    color: whitesmoke;
+    margin: 100px auto;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 16px 5px;
+
+}
+
+.search input {
+    width: 60%;
+    height: 16px;
+    font-size: 18px;
+    color: white;
+    border: 0;
+    background-color: #00000089;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 0px 8px;
+}
+
+.search button {
+    padding: 10px 14px;
+    border-radius: 50%;
+    background-color: #00000089;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    font-size: 20px;
+}
+
+.weather {
+    padding: 10px;
+    margin: 10px;
+}
+
+.col1 {
+    display: flex;
+    align-items: left;
+    margin: 19px 0px 0px 5px;
+    padding: 0px;
+}
+
+.details {
+    margin: 10px 0px;
+}
+
+.humidity,
+.wind {
+    margin: 0px 2px;
+}
